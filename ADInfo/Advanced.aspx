@@ -100,7 +100,6 @@
 
             //Собственно таблица
             var hot = new Handsontable(container, {
-                licenseKey: 'non-commercial-and-evaluation',
                 language: 'ru-RU',
                 data: getData(),
                 startRows: 8,
